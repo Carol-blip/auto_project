@@ -20,5 +20,7 @@
   <node pkg="auto_project" type="odom_noise.py" name="Odometry_Check"/>
 
   <node pkg="auto_project" type="kalman_filter.py" name="KalmanFilter"/>
-   
+  
+  <node pkg="auto_project" type="rqt_graph" name="rqt_graph"/>
+  
 </launch>
